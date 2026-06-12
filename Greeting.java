@@ -12,4 +12,8 @@ public class Greeting {
         if (hour < 18) return "afternoon";
         return "evening";
     }
+
+    public static String constant() {
+        return "PI=3.14";
+    }
 }
