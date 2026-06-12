@@ -1,4 +1,5 @@
 public class Greeting {
+    // Klasa pomocnicza z różnymi metodami narzędziowymi.
     public static String greet(String name) {
         return "Hello, " + name + "!";
     }
