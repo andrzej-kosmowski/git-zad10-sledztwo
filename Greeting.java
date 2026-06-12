@@ -14,10 +14,14 @@ public class Greeting {
     }
 
     public static String constant() {
-        return "Pi=3.14";   // BUG! mała "i"
+        return "Pi=3.14";
     }
 
     public static int absoluteValue(int x) {
         return x < 0 ? -x : x;
+    }
+
+    public static int square(int x) {
+        return x * x;
     }
 }
